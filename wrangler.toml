@@ -1,0 +1,4 @@
+name = "lunatv-config"
+main = "src/index.js"
+compatibility_date = "2024-10-21"
+workers_dev = true
