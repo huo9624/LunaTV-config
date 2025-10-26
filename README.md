@@ -242,169 +242,26 @@ https://api.example.workers.dev/?config=1&encode=base58
 | ✅ | 🔞色南国 | https://api.sexnguon.com/api.php/provide/vod | 81 | 19 | 81.0% | 0 |
 <!-- API_TABLE_END -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+
+## ☁️ Cloudflare Workers（静态只读）自动部署：lunatv-config
+
+- 访问地址（Workers Dev）：
+  - https://lunatv-config.<你的子域>.workers.dev
+- 支持参数：
+  - `/?config=0` 返回原始 JSON 配置
+  - `/?config=1` 返回使用中转代理的 JSON（自动前缀 = 当前 Worker + `?url=`）
+  - `/?config=1&encode=base58` 返回 Base58 编码订阅
+  - `/?url=...` 代理任意地址（含 CORS 与 30s 超时）
+
+示例：
+- 原始配置：`https://lunatv-config.<你的子域>.workers.dev/?config=0`
+- 中转配置：`https://lunatv-config.<你的子域>.workers.dev/?config=1`
+- Base58 订阅：`https://lunatv-config.<你的子域>.workers.dev/?config=1&encode=base58`
+- API 代理：`https://lunatv-config.<你的子域>.workers.dev/?url=https://caiji.kuaichezy.org/api.php/provide/vod`
+
+CI/CD：
+- 对 main 分支 push 或手动触发时，GitHub Actions 会执行 `npx wrangler deploy` 自动发布到 Cloudflare Workers。
+- 仓库 Settings → Secrets and variables → Actions 新增：
+  - `CLOUDFLARE_ACCOUNT_ID`
+  - `CLOUDFLARE_API_TOKEN`（需要 Workers Scripts:Edit 权限）
