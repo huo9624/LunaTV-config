@@ -146,7 +146,7 @@ https://api.example.workers.dev/?config=1&encode=base58
   
 # API 健康报告（每日自动检测API状态）
 
-## API 状态（最近更新：2026-05-17 22:26 CST）
+## API 状态（最近更新：2026-05-17 23:52 CST）
 
 - 总 API 数量：78
 - 成功 API 数量：65
@@ -224,12 +224,12 @@ https://api.example.workers.dev/?config=1&encode=base58
 | ✅ | 🔞鲨鱼资源 | https://shayuapi.com/api.php/provide/vod | 96 | 4 | 96.0% | 0 |
 | ✅ | 🎬豆瓣资源 | https://caiji.dbzy5.com/api.php/provide/vod | 94 | 6 | 94.0% | 0 |
 | ✅ | 🎬猫眼资源 | https://api.maoyanapi.top/api.php/provide/vod | 93 | 7 | 93.0% | 0 |
-| ✅ | 🔞精品资源 | https://www.jingpinx.com/api.php/provide/vod | 84 | 16 | 84.0% | 0 |
+| ✅ | 🔞精品资源 | https://www.jingpinx.com/api.php/provide/vod | 85 | 15 | 85.0% | 0 |
 | ✅ | 🔞黄色仓库 | https://hsckzy.xyz/api.php/provide/vod | 82 | 18 | 82.0% | 0 |
 | ✅ | 🎬茅台资源 | https://caiji.maotaizy.cc/api.php/provide/vod | 76 | 24 | 76.0% | 0 |
-| 🚨 | 🎬卧龙资源 | https://wolongzyw.com/api.php/provide/vod | 68 | 32 | 68.0% | 32 |
-| 🚨 | 🎬卧龙资源1 | https://collect.wolongzyw.com/api.php/provide/vod | 68 | 32 | 68.0% | 32 |
-| 🚨 | 🔞丝袜资源 | https://siwazyw.tv/api.php/provide/vod/at/json | 66 | 34 | 66.0% | 34 |
+| 🚨 | 🎬卧龙资源 | https://wolongzyw.com/api.php/provide/vod | 67 | 33 | 67.0% | 33 |
+| 🚨 | 🎬卧龙资源1 | https://collect.wolongzyw.com/api.php/provide/vod | 67 | 33 | 67.0% | 33 |
+| 🚨 | 🔞丝袜资源 | https://siwazyw.tv/api.php/provide/vod/at/json | 65 | 35 | 65.0% | 35 |
 | 🚨 | 🎬U酷88 | https://jjpz.hafrey.dpdns.org/?url=https://api.ukuapi88.com/api.php/provide/vod | 0 | 100 | 0.0% | 100 |
 | 🚨 | 🎬U酷资源 | https://jjpz.hafrey.dpdns.org/?url=https://api.ukuapi.com/api.php/provide/vod | 0 | 100 | 0.0% | 100 |
 | 🚨 | 🎬如意资源 | https://jjpz.hafrey.dpdns.org/?url=https://cj.rycjapi.com/api.php/provide/vod | 0 | 100 | 0.0% | 100 |
